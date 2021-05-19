@@ -27,6 +27,8 @@ jobs:
       
       - name: Sphinx Build
         uses: ammaraskar/sphinx-action@0.4
+        with:
+          build-command: "sphinx-build -b html"
 
 
 #       # Runs a single command using the runners shell
